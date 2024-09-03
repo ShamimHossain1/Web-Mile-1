@@ -1,6 +1,5 @@
+/* Google Font */
 
- /* Google Font */
- 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -11,241 +10,347 @@
 
 /* ------- Header Styles --------- */
 
-header{
+header {
     background: rgba(255, 144, 14, 0.10);
     padding: 30px 240px 0px 240px;
 }
 
-body{
+body {
     margin: 0px;
 }
 
 /* -------- Nav ---------- */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     gap: 673px;
     align-items: center;
 }
 
-nav > h3{
-font-size: 55px;
-font-weight: 700;
+nav>h3 {
+    font-size: 55px;
+    font-weight: 700;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
-    
+
 }
 
-nav > ul > li{
+nav>ul>li {
     list-style: none;
     margin-right: 50px;
     font-size: 22px;
-  font-weight: 500;
+    font-weight: 500;
 }
 
-nav > ul > li> a{
+nav>ul>li>a {
     text-decoration: none;
     color: #424242;
 }
 
 /*--- Banner contents ----*/
 
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.banner-content{
-  
+
+.banner-content {
+
     width: 862px;
     text-align: center;
 }
 
-.banner-title{
+.banner-title {
     color: #131313;
-font-size: 70px;
-font-weight: 800;
+    font-size: 70px;
+    font-weight: 800;
 
 }
-.banner-desc{
-color:  #727272;
-font-size: 22px;
-font-weight: 400;
-line-height: 26px; }
 
-.btn-primary{
+.banner-desc {
+    color: #727272;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-primary {
     border-radius: 8px;
-background: #FF900E;
-color: #FFF;
-text-align: center;
-font-size: 20px;
-font-weight: 600;
-border: none;
-padding: 20px 24px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 20px 24px;
 
 }
 
-.banner > img{
+.banner>img {
     width: 100%;
     height: 100%;
-border-radius: 8px;
-margin-top: 50px;
-margin-bottom: 50px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
 /* ----------- Quick list section ---------- */
 
-.quick-list-section{
+.quick-list-section {
 
     display: flex;
     gap: 80px;
     margin: 85px 300px;
-align-items: center;
+    align-items: center;
 }
 
-.quick-img{
+.quick-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     width: 100%;
 }
-.quick-img > img{
+
+.quick-img>img {
     width: 100%;
-    
+
 }
 
 
 
-.quick-list-title{
+.quick-list-title {
     font-size: 60px;
     font-weight: 500;
-    
+
 }
-.quick-list-title-part1{
+
+.quick-list-title-part1 {
     color: var(--Dark-03, #727272);
 }
-.quick-list-title-part2{
+
+.quick-list-title-part2 {
     color: var(--Dark-01, #131313);
     font-weight: 700;
 }
-.quick-list-title-part3{
+
+.quick-list-title-part3 {
     color: #FF900E;
     font-weight: 700;
 }
 
-.quick-img{
+.quick-img {
     width: 100%;
     margin-left: 150px;
 }
-.quick-list-desc{
- 
-color: var(--Dark-03, #727272);
-font-size: 20px;
 
-font-weight: 400;
-line-height: 26px; 
-margin-bottom: 32px;
-width: 750px;
+.quick-list-desc {
+
+    color: var(--Dark-03, #727272);
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+    width: 750px;
 
 }
 
+
+/* <!-- Some Facts Section --> */
+
+.facts-container {
+    margin: 140px 240px;
+}
+
+
+
+.facts-title {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.facts-des {
+    color: var(--Dark-03, #727272);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 700px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 124px;
+    margin: 100px 290px;
+}
+
+.card {
+    border-radius: 8px;
+    border: solid 1px #FF900E;
+    width: 100%;
+    height: 100%;
+    padding:35px;
+    text-align: center;
+}
+
+
+.card-stats {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.card-title {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 /* -------- Responsive Media--------- */
 
-@media screen  and (max-width: 576px) {
+@media screen and (max-width: 576px) {
 
-    
-header{
-    padding:  10px;
-}
 
-nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0px;
-}
-
-nav > h3{
-    font-size: 20px;
-    font-weight: 600;
+    header {
+        padding: 10px;
     }
 
-    nav > ul > li{
-       
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    nav>h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    nav>ul>li {
+
         margin-right: 25px;
         font-size: 15px;
-  
+
     }
 
-    .banner-content{
-  
+    .banner-content {
+
         width: auto;
-        
+
     }
-    .banner-title{
-    
-    font-size: 40px;
-    font-weight: 600;
-    
+
+    .banner-title {
+
+        font-size: 40px;
+        font-weight: 600;
+
     }
-    .banner-desc{
+
+    .banner-desc {
         font-size: 16px;
         font-weight: 400;
-        line-height: 26px; }
-    
-    .btn-primary{
-    font-size: 16px;
-    font-weight: 400;
- 
-    padding: 10px 14px;
-    
+        line-height: 26px;
     }
-    
-    .banner > img{
+
+    .btn-primary {
+        font-size: 16px;
+        font-weight: 400;
+
+        padding: 10px 14px;
+
+    }
+
+    .banner>img {
         width: 100%;
-        height: auto; 
-    border-radius: 8px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+        height: auto;
+        border-radius: 8px;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
 
     /* ----------- Quick list section ---------- */
 
-    .quick-list-section{
+    .quick-list-section {
 
         display: flex;
         flex-direction: column-reverse;
         gap: 0px;
         margin: 30px 10px;
     }
-    
-    .quick-img{
+
+    .quick-img {
         gap: 30px;
         margin-top: 20px;
         margin-left: 0px;
     }
-    .quick-content{
-     text-align: center;
+
+    .quick-content {
+        text-align: center;
     }
-    
-    
-    .quick-list-title{
+
+
+    .quick-list-title {
         font-size: 30px;
-        
-    }
-    .quick-list-desc{
-    font-size: 16px;
-    margin-bottom: 20px;
-     width: auto;
-    
+
     }
 
+    .quick-list-desc {
+        font-size: 16px;
+        margin-bottom: 20px;
+        width: auto;
 
-    
+    }
+
+    /* <!-- Some Facts Section --> */
+
+.facts-container {
+    margin: 40px 10px;
 }
 
+
+
+.facts-title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.facts-des {
+    font-size: 16px;
+    width: auto;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 20px;
+}
+
+.card {
+    width: auto;
+    height: auto;
+    padding:30px;
+    text-align: center;
+}
+
+
+.card-stats {
+
+    font-size: 35px;
+
+}
+
+.card-title {
+
+    font-size: 18px;
+
+}
+
+
+}
