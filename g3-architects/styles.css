@@ -16,6 +16,9 @@ header{
     padding: 30px 240px 0px 240px;
 }
 
+body{
+    margin: 0px;
+}
 
 /* -------- Nav ---------- */
 
@@ -222,15 +225,9 @@ nav > h3{
     }
     
     .quick-img{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
-        width: 100%;
         margin-top: 20px;
-    }
-    .quick-img > img{
-        width: 100%;
-        
+        margin-left: 0px;
     }
     .quick-content{
      text-align: center;
@@ -239,34 +236,12 @@ nav > h3{
     
     .quick-list-title{
         font-size: 30px;
-        font-weight: 500;
         
     }
-    .quick-list-title-part1{
-        color: var(--Dark-03, #727272);
-    }
-    .quick-list-title-part2{
-        color: var(--Dark-01, #131313);
-        font-weight: 700;
-    }
-    .quick-list-title-part3{
-        color: #FF900E;
-        font-weight: 700;
-    }
-    
-    .quick-img{
-        width: 100%;
-        margin-left: 0px;
-    }
     .quick-list-desc{
-     
-    color: var(--Dark-03, #727272);
     font-size: 16px;
-    
-    font-weight: 400;
-    line-height: 26px; 
-    margin-bottom: 32px;
-  width: auto;
+    margin-bottom: 20px;
+     width: auto;
     
     }
 
